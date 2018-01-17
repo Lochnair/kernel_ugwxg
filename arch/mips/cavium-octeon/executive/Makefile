@@ -9,6 +9,8 @@
 # Copyright (C) 2005-2008 Cavium Networks
 #
 
+ccflags-y += -Wno-misleading-indentation
+
 obj-y += cvmx-bootmem.o cvmx-l2c.o cvmx-sysinfo.o octeon-model.o	\
 	octeon-feature.o
 obj-y += cvmx-pko.o cvmx-spi.o cvmx-cmd-queue.o cvmx-helper-cfg.o	\
